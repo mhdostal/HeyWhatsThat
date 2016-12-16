@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E15A1671AE84DFC00A7D40D /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E15A1661AE84DFC00A7D40D /* ArcGIS.framework */; };
+		3E15A1691AE84FC400A7D40D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E15A1681AE84FC400A7D40D /* libc++.dylib */; };
+		3E15A16B1AE852F300A7D40D /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E15A16A1AE852F300A7D40D /* ArcGIS.bundle */; };
+		B71723BE1CF88EEA0077BB5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71723BD1CF88EEA0077BB5B /* AppDelegate.swift */; };
+		B71723C01CF88EF40077BB5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71723BF1CF88EF40077BB5B /* ViewController.swift */; };
+		B71723C31CF88F040077BB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71723C11CF88F040077BB5B /* Main.storyboard */; };
+		B71723C51CF88F0F0077BB5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71723C41CF88F0F0077BB5B /* Images.xcassets */; };
+		B71723C81CF88F1B0077BB5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71723C61CF88F1B0077BB5B /* LaunchScreen.xib */; };
+		E46B3A591E034427000C3B14 /* Pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E46B3A581E034427000C3B14 /* Pin.png */; };
+		E46B3A5C1E034802000C3B14 /* heywhatsthatappicon_360.png in Resources */ = {isa = PBXBuildFile; fileRef = E46B3A5A1E034802000C3B14 /* heywhatsthatappicon_360.png */; };
+		E46B3A5D1E034802000C3B14 /* heywhatsthatlaunch_720.png in Resources */ = {isa = PBXBuildFile; fileRef = E46B3A5B1E034802000C3B14 /* heywhatsthatlaunch_720.png */; };
+		E47073511E0325E7003ABC4E /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47073501E0325E7003ABC4E /* PreviewView.swift */; };
+		E47073531E0337F3003ABC4E /* Indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = E47073521E0337F3003ABC4E /* Indicator.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E15A1411AE84CEA00A7D40D /* HeyWhatsThat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyWhatsThat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E15A1661AE84DFC00A7D40D /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = $HOME/Library/SDKs/ArcGIS/iOS/Frameworks/Static/ArcGIS.framework; sourceTree = "<absolute>"; };
+		3E15A1681AE84FC400A7D40D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		3E15A16A1AE852F300A7D40D /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = $HOME/Library/SDKs/ArcGIS/iOS/Frameworks/Static/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<absolute>"; };
+		B71723BD1CF88EEA0077BB5B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "SceneViewDemo-Swift/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		B71723BF1CF88EF40077BB5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "SceneViewDemo-Swift/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B71723C21CF88F040077BB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "SceneViewDemo-Swift/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		B71723C41CF88F0F0077BB5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "SceneViewDemo-Swift/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		B71723C71CF88F1B0077BB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "SceneViewDemo-Swift/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
+		B71723C91CF88F330077BB5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "SceneViewDemo-Swift/Info.plist"; sourceTree = SOURCE_ROOT; };
+		E46B3A581E034427000C3B14 /* Pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pin.png; path = "SceneViewDemo-Swift/Pin.png"; sourceTree = SOURCE_ROOT; };
+		E46B3A5A1E034802000C3B14 /* heywhatsthatappicon_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heywhatsthatappicon_360.png; path = "SceneViewDemo-Swift/heywhatsthatappicon_360.png"; sourceTree = SOURCE_ROOT; };
+		E46B3A5B1E034802000C3B14 /* heywhatsthatlaunch_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heywhatsthatlaunch_720.png; path = "SceneViewDemo-Swift/heywhatsthatlaunch_720.png"; sourceTree = SOURCE_ROOT; };
+		E47073501E0325E7003ABC4E /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = "SceneViewDemo-Swift/PreviewView.swift"; sourceTree = SOURCE_ROOT; };
+		E47073521E0337F3003ABC4E /* Indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Indicator.png; path = "SceneViewDemo-Swift/Indicator.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E15A13E1AE84CEA00A7D40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E15A1691AE84FC400A7D40D /* libc++.dylib in Frameworks */,
+				3E15A1671AE84DFC00A7D40D /* ArcGIS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E15A1381AE84CEA00A7D40D = {
+			isa = PBXGroup;
+			children = (
+				3E15A1431AE84CEA00A7D40D /* HeyWhatsThat */,
+				3E15A1421AE84CEA00A7D40D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E15A1421AE84CEA00A7D40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E15A1411AE84CEA00A7D40D /* HeyWhatsThat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E15A1431AE84CEA00A7D40D /* HeyWhatsThat */ = {
+			isa = PBXGroup;
+			children = (
+				B71723BD1CF88EEA0077BB5B /* AppDelegate.swift */,
+				B71723BF1CF88EF40077BB5B /* ViewController.swift */,
+				E47073501E0325E7003ABC4E /* PreviewView.swift */,
+				B71723C11CF88F040077BB5B /* Main.storyboard */,
+				B71723C41CF88F0F0077BB5B /* Images.xcassets */,
+				B71723C61CF88F1B0077BB5B /* LaunchScreen.xib */,
+				3E15A1681AE84FC400A7D40D /* libc++.dylib */,
+				3E15A1661AE84DFC00A7D40D /* ArcGIS.framework */,
+				3E15A1441AE84CEA00A7D40D /* Supporting Files */,
+			);
+			name = HeyWhatsThat;
+			path = "MapViewDemo-Swift";
+			sourceTree = "<group>";
+		};
+		3E15A1441AE84CEA00A7D40D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E47073521E0337F3003ABC4E /* Indicator.png */,
+				E46B3A5A1E034802000C3B14 /* heywhatsthatappicon_360.png */,
+				E46B3A5B1E034802000C3B14 /* heywhatsthatlaunch_720.png */,
+				E46B3A581E034427000C3B14 /* Pin.png */,
+				3E15A16A1AE852F300A7D40D /* ArcGIS.bundle */,
+				B71723C91CF88F330077BB5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E15A1401AE84CEA00A7D40D /* HeyWhatsThat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E15A1601AE84CEA00A7D40D /* Build configuration list for PBXNativeTarget "HeyWhatsThat" */;
+			buildPhases = (
+				3E15A13D1AE84CEA00A7D40D /* Sources */,
+				3E15A13E1AE84CEA00A7D40D /* Frameworks */,
+				3E15A13F1AE84CEA00A7D40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeyWhatsThat;
+			productName = "MapViewDemo-Swift";
+			productReference = 3E15A1411AE84CEA00A7D40D /* HeyWhatsThat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E15A1391AE84CEA00A7D40D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Esri;
+				TargetAttributes = {
+					3E15A1401AE84CEA00A7D40D = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = P8HGHS7JQ8;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 3E15A13C1AE84CEA00A7D40D /* Build configuration list for PBXProject "HeyWhatsThat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E15A1381AE84CEA00A7D40D;
+			productRefGroup = 3E15A1421AE84CEA00A7D40D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E15A1401AE84CEA00A7D40D /* HeyWhatsThat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E15A13F1AE84CEA00A7D40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71723C81CF88F1B0077BB5B /* LaunchScreen.xib in Resources */,
+				B71723C51CF88F0F0077BB5B /* Images.xcassets in Resources */,
+				3E15A16B1AE852F300A7D40D /* ArcGIS.bundle in Resources */,
+				E46B3A5C1E034802000C3B14 /* heywhatsthatappicon_360.png in Resources */,
+				E46B3A591E034427000C3B14 /* Pin.png in Resources */,
+				E47073531E0337F3003ABC4E /* Indicator.png in Resources */,
+				E46B3A5D1E034802000C3B14 /* heywhatsthatlaunch_720.png in Resources */,
+				B71723C31CF88F040077BB5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E15A13D1AE84CEA00A7D40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71723BE1CF88EEA0077BB5B /* AppDelegate.swift in Sources */,
+				B71723C01CF88EF40077BB5B /* ViewController.swift in Sources */,
+				E47073511E0325E7003ABC4E /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B71723C11CF88F040077BB5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71723C21CF88F040077BB5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B71723C61CF88F1B0077BB5B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71723C71CF88F1B0077BB5B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E15A15E1AE84CEA00A7D40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E15A15F1AE84CEA00A7D40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E15A1611AE84CEA00A7D40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8HGHS7JQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Static",
+				);
+				INFOPLIST_FILE = "SceneViewDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3E15A1621AE84CEA00A7D40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8HGHS7JQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Static",
+				);
+				INFOPLIST_FILE = "SceneViewDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E15A13C1AE84CEA00A7D40D /* Build configuration list for PBXProject "HeyWhatsThat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E15A15E1AE84CEA00A7D40D /* Debug */,
+				3E15A15F1AE84CEA00A7D40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E15A1601AE84CEA00A7D40D /* Build configuration list for PBXNativeTarget "HeyWhatsThat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E15A1611AE84CEA00A7D40D /* Debug */,
+				3E15A1621AE84CEA00A7D40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E15A1391AE84CEA00A7D40D /* Project object */;
+}
